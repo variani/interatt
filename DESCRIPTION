@@ -1,0 +1,21 @@
+Package: interatt
+Type: Package
+Title: Attribute interactions
+Version: 0.0.1
+Date: 2015-08-16
+Author: Andrey Ziyatdinov
+Maintainer: Andrey Ziyatdinov <andrey.ziyatdinov@upc.edu>
+Description: R package to explore attribute interactions.
+License: GPL (>= 3)
+Imports:
+    infotheo,
+    plyr,
+    graph,
+    Rgraphviz
+Suggests: 
+    doParallel,
+    iterators,
+    parallel
+Collate:
+    'infotheo.lib.R'
+    'plot.lib.R'    
